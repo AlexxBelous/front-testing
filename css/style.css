@@ -3,3 +3,7 @@ body {
 }
 
 /* Окрасьте надпись Span 1 в красный цвет. */
+
+ul li p > span {
+  color: red;
+}
