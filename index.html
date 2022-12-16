@@ -23,7 +23,16 @@
   // В переменную buttons необходимо получить все элементы с классом btn. С помощью цикла навесить на каждую из них обработчик событий. При клике на любой button в консоль должно выводиться сообщение о том, на какой button был совершен клик, а также текстовое содержимое button. Используйте объект event'
 
 
-  
+  const buttons = document.querySelectorAll('.btn');
+
+  const handleClick = (event) => {
+    console.log(event.target.textContent);
+  }
+
+  buttons.forEach(buttons => {
+    buttons.addEventListener('click', handleClick)
+    });
+
 
 
 </script>
