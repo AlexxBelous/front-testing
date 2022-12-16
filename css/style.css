@@ -18,7 +18,10 @@ body {
   background-color: blue;
 }
 
-
+.grid {
+  display: grid;
+  grid-template-columns: 200px 400px minmax(100px, 500px);
+}
 
 /* Смотреть image-4 */
 
