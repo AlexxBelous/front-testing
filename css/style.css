@@ -22,12 +22,8 @@ body {
   background-color: green;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 10px;
-}
 
-/* Смотреть image-5 */
 
-/* С помощью свойства css grid и параметра repeat создайте макет с четырьмя одинаковыми колонками и расстоянием между ними в 10px */
+/* Смотреть image-6 */
+
+/* С помощью свойства css grid и параметра repeat создайте макет с тремя колонками и тремя строками. */
