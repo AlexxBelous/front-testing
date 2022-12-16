@@ -22,7 +22,12 @@ body {
   background-color: green;
 }
 
-
+.grid {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
 
 /* Смотреть image-6 */
 
