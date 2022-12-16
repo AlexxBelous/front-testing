@@ -10,27 +10,20 @@
 <body>
 
 <div class="wrapper">
-  <button class="btn">Click</button>
-  <button class="btn">Click 1</button>
-  <button class="btn">Click 2</button>
-  <button class="btn">Click 3</button>
+  <button data-number="1" class="btn">Click 1</button>
+  <button data-number="2" class="btn">Click 2</button>
+  <button data-number="3" class="btn">Click 3</button>
+  <button data-number="4" class="btn">Click 4</button>
 
 </div>
 
 
 
 <script>
-  // В переменную buttons необходимо получить все элементы с классом btn. С помощью цикла навесить на каждую из них обработчик событий. При клике на любой button в консоль должно выводиться сообщение - 'clicked!!!'
+  // В переменную buttons необходимо получить все элементы с классом btn. С помощью цикла навесить на каждую из них обработчик событий. При клике на любой button в консоль должно выводиться сообщение о том, на какой button был совершен клик, а также текстовое содержимое button. Используйте объект event'
 
 
-  const buttons = document.querySelectorAll('.btn');
-
-  buttons.forEach(buttons => {
-    buttons.addEventListener('click', function() {
-      console.log('clicked!!!')
-    })
-  })
-
+  
 
 
 </script>
