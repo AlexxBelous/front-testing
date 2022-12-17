@@ -34,7 +34,7 @@ body {
 }
 
 .grid-item-3 {
-  grid-column: 1 / span 4;
+  grid-column: col 1 / span 4;
   grid-row: 3;
 }
 
