@@ -38,9 +38,19 @@ body {
 
 .grid {
   border: 1px solid black;
-
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 500px;
 }
 
+.grid-item-1 { 
+  align-self: start;
+  align-self: end;
+  align-self: center;
+  justify-self: start;
+  justify-self: end;
+  justify-self: center;
+}
 
 
 
