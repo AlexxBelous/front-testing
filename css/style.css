@@ -39,20 +39,14 @@ body {
 .grid {
   height: 600px;
   border: 1px solid black;
-  display: grid;
-  grid-gap: 15px;
-  justify-content: space-around;
-}
 
-
-.grid-item {
-  width: 100px;
-  height: 100px;
 }
 
 
 
-/* Смотреть image-17 */
+
+
+/* Смотреть image-18 */
 
 /* Выровняйте элементы внутри грид контейнера в соответствии с картинкой.
 Высота и ширина элементов 100px. Высота контейнера 600px. Пространство между элементами 15px*/
