@@ -27,9 +27,15 @@ body {
 
 .grid {
   border: 1px solid black;
-
+  display: grid;
+  grid-template-columns: repeat(12, [col] 1fr);
+  grid-template-rows: repeat(8, [row] 1fr);
+  grid-column-gap: 10px;
 }
 
+.grid-item-3 {
+  grid-column: 1 / 4;
+}
 
 
 
