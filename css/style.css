@@ -4,6 +4,7 @@ body {
 
 .grid-item {
   border: 1px solid black;
+  min-height: 100px;
 }
 
 .grid-item-1 {
@@ -23,12 +24,13 @@ body {
 }
 
 .grid {
-  display: grid;
   border: 1px solid black;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+
 }
 
-/* Смотреть image-6 */
 
-/* С помощью свойства css grid и параметра repeat создайте макет с тремя колонками и тремя строками. */
+
+
+/* Смотреть image-7 */
+
+/* С помощью свойства css grid и параметра repeat создайте макет с тремя одинаковыми по ширине колонками и строками. Тремя разными записями, Item-1 необходимо поместить в нижний правый угол макета*/
