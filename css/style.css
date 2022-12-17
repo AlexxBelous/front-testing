@@ -38,27 +38,14 @@ body {
 
 .grid {
   border: 1px solid black;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 500px;
-  align-items: start;
-  align-items: end;
-  align-items: center;
-  justify-items: start;
-  justify-items: end;
-  justify-items: center;
- 
+  
 }
 
 
 
 
 
-/* Смотреть image-15.1 - 15.6 */
+/* Смотреть image-16 */
 
-/* Дайте свойства грид контейнеру и выровняйте его вертикально и горизонтально по очинено в соответствии с картинками:
- -image-15.1
- -image-15.2
- -image-15.3
- -image-15.4
- -image-15.5*/
+/* Выровняйте элементы внутри грид контейнера в соответствии с картинкой.
+Высота и ширина элементов 100px. Высота контейнера 600px. Пространство между элементами 15px*/
