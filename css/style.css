@@ -62,13 +62,13 @@ body {
 
 .grid-item-9 {
   grid-column: col 2 / col 4; 
-  grid-row: row 3 / row 3; 
+ 
 
 }
 
 .grid-item-10 {
   grid-column: col 4 / col 6; 
-  grid-row: row 3 / row 3; 
+ 
 
 }
 
