@@ -11,6 +11,7 @@ body {
 
 .grid-item-1 {
   background-color: aqua;
+  color: black;
 }
 
 .grid-item-2 {
@@ -37,38 +38,6 @@ body {
 
 .grid {
   border: 1px solid black;
-  display: grid;
-  grid-template-columns: repeat(6, [col] 1fr);
-  grid-template-rows: repeat(3, [row] 1fr);
-  grid-gap: 10px;
-}
-
-.grid-item-1 {
-  grid-column: col 1 / col 3; /* или span 2 */
-
-}
-
-.grid-item-2 {
-  grid-column: col 3 / col 5; /* или span 2 */
-  grid-row: row 1 / row 3; /* или span 2 */
-
-}
-
-.grid-item-3 {
-  grid-column: col 5 / col 5; 
-  grid-row: row 1 / row 3; 
-
-}
-
-.grid-item-9 {
-  grid-column: col 2 / col 4; 
- 
-
-}
-
-.grid-item-10 {
-  grid-column: col 4 / col 6; 
- 
 
 }
 
@@ -76,7 +45,11 @@ body {
 
 
 
-/* Смотреть image-14 */
+/* Смотреть image-15.1 - 15.6 */
 
-/* Необходимо создать сетку макета с картинки image-14*.
-Пространство между блоками должно занимает 10px/
+/* Дайте свойства элементу и выровняйте его вертикально и горизонтально по очинено в соответствии с картинками:
+ -image-15.1
+ -image-15.2
+ -image-15.3
+ -image-15.4
+ -image-15.5*/
