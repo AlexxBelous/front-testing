@@ -44,6 +44,11 @@ body {
   justify-content: end;
 }
 
+.grid-item {
+  width: 100px;
+  height: 100px;
+}
+
 
 
 
