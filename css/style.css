@@ -25,23 +25,25 @@ body {
   background-color: green;
 }
 
+.grid-item-5,
+.grid-item-6,
+.grid-item-7,
+.grid-item-8,
+.grid-item-9,
+.grid-item-10,
+.grid-item-11 {
+  background-color: blueviolet;
+}
+
 .grid {
   border: 1px solid black;
-  display: grid;
-  grid-template-columns: repeat(12, [col] 1fr);
-  grid-template-rows: repeat(8, [row] 1fr);
-  grid-column-gap: 10px;
-}
 
-.grid-item-3 {
-  grid-column: col 1 / span 4;
-  grid-row: row 3 / span 4;
 }
-
 
 
 
 
 /* Смотреть image-13 */
 
-/* С помощью свойства css grid и параметра repeat создайте макет с 12-ю колонками и 8-ю строками. Задайте имя для колонок в свойстве колонок - [col] и имя [row] - в свойстве строк.Добавьте промежуток между колонками в 10px. grid-item-3 необходимо установить элементу свойства, с помощью которых этот элемент будет занимать четыре первых колонки в третьем ряду и растянут ниже на 4 строки*/
+/* Необходимо создать сетку макета с картинки image-14*.
+Пространство между блоками должно занимает 10px/
